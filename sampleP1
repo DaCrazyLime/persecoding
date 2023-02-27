@@ -1,1 +1,3 @@
-
+name = "Lucy"
+greeting = "Hi"
+print(greeting + " " +name)
