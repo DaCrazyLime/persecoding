@@ -1,0 +1,5 @@
+word = str(input("Put word: "))
+
+num_repeats = (30 // len(word)) + 1
+
+print(word * num_repeats)
