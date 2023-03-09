@@ -1,0 +1,14 @@
+n1 = int(input("Enter a positive whole number between 0 and 1000: "))
+while n1 < 0 or n1 > 1000:
+    n1 = int(input("Please enter a positive whole number between 0 and 1000: "))
+
+n2 = int(input("Enter a different positive whole number between 0 and 1000: "))
+while n2 == n1 or n2 < 0 or n2 > 1000:
+    n2 = int(input("Please enter a different positive whole number between 0 and 1000: "))
+    
+if n1 > n2:
+    result = n1 - n2
+else:
+    result = n2 - n1
+    
+print(result)
