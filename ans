@@ -1,0 +1,19 @@
+hall_fee_yearly = int(input())
+student_fee_monthly = int(input())
+number_of_students = int(input())
+print(hall_fee_yearly + student_fee_monthly*number_of_students*12)
+
+#####
+
+
+total = int(input())
+cost = int(input())
+print(total//cost)
+
+
+####
+
+encry = input(str())
+decry1 = encry[2:7]
+decry2 = encry[0:2]
+print(decry1+decry2)
